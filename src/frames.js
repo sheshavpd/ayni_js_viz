@@ -1,18 +1,19 @@
+const path = require("path");
 const animFrames = [];
 animFrames.push({type: 'distort', delay: 0, targetTime: 1000});
 animFrames.push(new AnimImageFile(getAssetAbsPath("2_1.png"),
     100, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f1.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f1.jpg"),
     3000, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f4.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f4.jpg"),
     500, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f6.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f6.jpg"),
     800, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f7.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f7.jpg"),
     1000, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f8.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f8.jpg"),
     1000, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f9.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f9.jpg"),
     1000, 1000));
 animFrames.push(new AnimImageFile(getAssetAbsPath("jquery.jpg"),
     14000, 600));
@@ -48,7 +49,7 @@ animFrames.push(new AnimImageFile(getAssetAbsPath("aynijs_2.jpg"),
     4000, 1000));
 animFrames.push(new AnimImageFile(getAssetAbsPath("web_mobile_pc.jpg"),
     3000, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f9.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f9.jpg"),
     3000, 1000));
 animFrames.push(new AnimImageFile(getAssetAbsPath("mocha.jpg"),
     12000, 600));
@@ -80,7 +81,7 @@ animFrames.push(new AnimImageFile(getAssetAbsPath("aynijs_2.jpg"),
     3000, 1000));
 animFrames.push(new AnimImageFile(getAssetAbsPath("web_mobile_pc.jpg"),
     3000, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f9.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f9.jpg"),
     3000, 1000));
 animFrames.push(new AnimImageFile(getAssetAbsPath("vue.jpg"),
     4000, 1000));
@@ -140,7 +141,7 @@ animFrames.push(new AnimImageFile(getAssetAbsPath("aynijs_2.jpg"),
     4000, 1000));
 animFrames.push(new AnimImageFile(getAssetAbsPath("web_mobile_pc.jpg"),
     3000, 1000));
-animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames\\f9.jpg"),
+animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f9.jpg"),
     3000, 1000));
 animFrames.push({type: 'distort', delay: 17000, targetTime: 1000});
 animFrames.push({type: 'distort', delay: 30000, targetTime: 1000});
