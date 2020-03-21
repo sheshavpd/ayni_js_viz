@@ -1,6 +1,7 @@
 const path = require("path");
 const animFrames = [];
 animFrames.push({type: 'distort', delay: 0, targetTime: 1000});
+/* TODO: Could be refactored into a short function which reads JSON to read the asset files. */
 animFrames.push(new AnimImageFile(getAssetAbsPath("2_1.png"),
     100, 1000));
 animFrames.push(new AnimImageFile(getAssetAbsPath("js_frames"+path.sep+"f1.jpg"),
