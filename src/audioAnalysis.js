@@ -68,7 +68,7 @@ const AUDIO_START_TIME = 0;
 // load the specified sound
 function loadSound() {
     setupAudioNodes();
-    context.decodeAudioData(new Uint8Array(fs.readFileSync("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\JS_SONG.wav")).buffer, function(buffer) {
+    context.decodeAudioData(new Uint8Array(fs.readFileSync(getAssetAbsPath("JS_SONG.wav"))).buffer, function(buffer) {
         // when the audio is decoded play the sound
         playSound(buffer);
         if(startListener)

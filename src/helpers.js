@@ -29,3 +29,8 @@ const getRelativeAz = function(p1, p2) {
         return TO_DEG*(Math.atan(y/-x))+270;
     else return 0;
 };
+
+const path = require('path');
+const getAssetAbsPath = function(assetName) {
+    return __dirname+path.sep+"assets"+path.sep+assetName;
+};
