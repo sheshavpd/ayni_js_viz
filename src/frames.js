@@ -1,0 +1,148 @@
+const animFrames = [];
+animFrames.push({type: 'distort', delay: 0, targetTime: 1000});
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\2_1.png",
+    100, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f1.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f4.jpg",
+    500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f6.jpg",
+    800, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f7.jpg",
+    1000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f8.jpg",
+    1000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f9.jpg",
+    1000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\jquery.jpg",
+    14000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\ember.jpg",
+    2000, 700));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\grunt.jpg",
+    2000, 700));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\bower.jpg",
+    2000, 700));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\bootstrap.jpg",
+    2000, 700));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\1.png",
+    2000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\strictEquality.jpg",
+    6000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\varCollision.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\funcBinding.jpg",
+    2000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\memoryLeak.jpg",
+    2000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\consoleLog.jpg",
+    6000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_1.jpg",
+    6500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_2.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\fbdb.jpg",
+    2000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_1.jpg",
+    4500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_2.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\web_mobile_pc.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f9.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\mocha.jpg",
+    12000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\lint.jpg",
+    2000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\webpack.jpg",
+    2000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\startups.jpg",
+    2000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\chell.jpg",
+    4000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\asyncawait.jpg",
+    6000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\lodash.jpg",
+    5000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\redux.jpg",
+    6000, 600));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_1.jpg",
+    7500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_2.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\xml.jpg",
+    1500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\json.jpg",
+    1500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_1.jpg",
+    4500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_2.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\web_mobile_pc.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f9.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\vue.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\d3.jpg",
+    2500, 500));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\mongo.jpg",
+    2500, 500));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\react.jpg",
+    2500, 500));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\meteor.jpg",
+    2500, 500));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\require.jpg",
+    2500, 500));
+animFrames.push({type: 'distort', delay: 2500, targetTime: 1000});
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\livescript.jpg",
+    1500, 500));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\chromium.jpg",
+    2500, 500));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\class.jpg",
+    4500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\angular.jpg",
+    5000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\love_triangle.jpg",
+    2000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\npm.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\love_java.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\addiction.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\sitchair1.jpg",
+    5000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\babel.jpg",
+    6000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\asyncloop.jpg",
+    6000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\typescript.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_love.jpg",
+    2000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\ajax.jpg",
+    8500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\xss.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\prototype.jpg",
+    3000, 1000));
+animFrames.push({type: 'distort', delay: 3000, targetTime: 1000});
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_1.jpg",
+    1000, 200));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_2.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\fbdb.jpg",
+    2000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_1.jpg",
+    4500, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\aynijs_2.jpg",
+    4000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\web_mobile_pc.jpg",
+    3000, 1000));
+animFrames.push(new AnimImageFile("C:\\Users\\shesh\\Desktop\\AudioVizTest\\assets\\js_frames\\f9.jpg",
+    3000, 1000));
+animFrames.push({type: 'distort', delay: 17000, targetTime: 1000});
+animFrames.push({type: 'distort', delay: 30000, targetTime: 1000});
+
+module.exports = animFrames;
