@@ -9,7 +9,7 @@
   "author": "TheDarkBoffin",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^8.1.1"
+    "electron": "^13.6.6"
   },
   "dependencies": {
     "electron-reload": "^1.5.0"
